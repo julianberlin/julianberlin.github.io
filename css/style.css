@@ -14,7 +14,7 @@
     3.NAVBAR
     4.HOME
     5.ABOUT 
-    6.SERVICES
+    6.SKILLS
     7.CLIENT
     8.WORK
     9.BLOG
@@ -321,7 +321,7 @@ button:focus {
 =============================*/
 
 .header-bg-img {
-    background-image: url(../images/header-bg3.jpg);
+    background-image: url(../images/working.jpg);
     position: relative;
     background-size: cover;
     background-position: center center;
@@ -441,43 +441,43 @@ button:focus {
 
 
 /*===========================
-        6.SERVICES
+        6.SKILLS
 =============================*/
 
-.services-boxes {
+.skills-boxes {
     border: 1px solid #353941;
 }
 
-.services-boxes .services-boxes-icon i {
+.skills-boxes .skills-boxes-icon i {
     font-size: 44px;
 }
 
-.services-boxes .services-title-border {
+.skills-boxes .skills-title-border {
     height: 2px;
     width: 40px;
     margin: 15px auto;
     transition: all 0.5s;
 }
 
-.services-boxes:hover .services-title-border {
+.skills-boxes:hover .skills-title-border {
     width: 60px;
 }
 
-.service-box {
+.skill-box {
     border: 1px solid #eaeaea;
     border-radius: 8px;
 }
 
-.services-boxes h5 {
+.skills-boxes h5 {
     font-weight: 600;
 }
 
-.service-box .service-content h5 {
+.skill-box .skill-content h5 {
     font-size: 20px;
     font-weight: 700;
 }
 
-.service-box .service-content p {
+.skill-box .skill-content p {
     font-size: 15px;
 }
 
@@ -615,7 +615,7 @@ button:focus {
 }
 
 /*=========================
-        9.CONTACT
+        9.BLOG
 ===========================*/
 
 .blog_color{

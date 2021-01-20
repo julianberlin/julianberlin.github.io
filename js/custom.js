@@ -153,7 +153,7 @@
                 height: 100,
                 bones: 3,
                 amplitude: 50,
-                color: '#2e3135',
+                color: '#ff8e00',
                 speed: .25
             });
         }

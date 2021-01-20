@@ -3,10 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Kerri | Responsive Bootstrap 4 Personal Template</title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
-        <meta name="author" content="SRBThemes" />
+        <title>Julian Berlin's Personal Website</title>
+        <meta name="description" content="The Personal Website of Julian Berlin" />
+        <meta name="keywords" content="Julian Berlin" />
+        <meta name="author" content="Julian Berlin" />
 
         <link rel="shortcut icon" href="images/favicon.ico">
 
@@ -22,6 +22,9 @@
         <!-- Magnific-popup -->
         <link rel="stylesheet" href="css/magnific-popup.css">
 
+        <!-- Animation Css -->
+        <link rel="stylesheet" href="css/aos.css">
+
         <!-- Animate Css -->
         <link rel="stylesheet" href="css/animate.min.css">
 
@@ -32,7 +35,9 @@
 
         <!-- Custom style Css -->
         <link href="css/style.css" rel="stylesheet">
-        <link href="css/color/default.css" rel="stylesheet" id="option-color">
+        <link href="css/color/green.css" rel="stylesheet" id="option-color">
+
+
     </head>
 
     <body>
@@ -66,17 +71,17 @@
                             <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
+                            <a class="nav-link" href="#skills">Skills</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#client">Client</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="#work">Portfolio</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#blog">Blog</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
@@ -87,16 +92,16 @@
         <!-- End Navbar -->
 
         <!-- START HOME -->
-        <section class="section header-bg-img h-100vh clip-home" id="home">
+        <section class="section header-bg-img h-100vh wave-home" id="home">
             <div class="bg-overlay"></div>
             <div class="header-table">
                 <div class="header-table-center">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-12">
-                                <div class="text-center header-content mx-auto">
+                                <div class="text-center header-content mx-auto" data-aos="fade-up">
                                     <h4 class="text-white first-title mb-4">Welcome</h4>
-                                    <h1 class="header-name text-white text-capitalize mb-0">I'M <span class="element font-weight-bold" data-elements="Kerri Deo.,A Graphic Designer.,A Photographer."></span></h1>
+                                    <h1 class="header-name text-white text-capitalize mb-0" id="banner-typing-text"></h1>
                                     <p class="text-white mx-auto header-desc mt-4">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
                                     <div class="mt-4 pt-2">
                                         <a href="#" class="btn btn-outline-custom btn-round">Download Cv</a>
@@ -107,10 +112,11 @@
                     </div>
                 </div>
             </div>            
-            <div class="scroll_down">
-                <a href="#about" class="scroll">
-                    <i class="text-white"></i>
-                </a>
+            <div class="wave_sec">
+                <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <path id="wave_img" d="M 0 185.609 C 317.16666666666663 118.136 317.16666666666663 118.136 634.3333333333333 151.87 C 951.4999999999999 185.609 951.4999999999999 185.609 1268.6666666666665 116.402 C 1585.833333333333 47.195 1585.833333333333 47.195 1903 131.925 L 1903 507 L 0 507 Z" fill="#2e3135"></path>
+                </svg>
             </div>
         </section>
         <!-- END HOME -->
@@ -120,12 +126,12 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <div class="mt-3">
-                            <img src="images/about.jpg" alt="" class="img-fluid mx-auto d-block img-thumbnail">
+                        <div class="mt-3" data-aos="fade-up">
+                            <img src="images/Linkedin.jpg" alt="" class="img-fluid mx-auto d-block img-thumbnail">
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="mt-3">
+                        <div class="mt-3" data-aos="fade-up">
                             <h2><span class="font-weight-bold">About</span> Me</h2>
                             <h4 class="mt-4">Hello! <span class="text-custom font-weight-bold">I'M Kerri Deo.</span></h4>
                             <p class="text-muted mt-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
@@ -146,50 +152,50 @@
         </section>
         <!-- END ABOUT -->
 
-        <!-- START SERVICES -->
-        <section class="section bg-light" id="services">
+        <!-- START SKILLS -->
+        <section class="section bg-light" id="skills">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
-                        <div class="text-center">
-                            <h2>Our <span class="font-weight-bold">Services</span></h2>
+                        <div class="text-center" data-aos="fade-up">
+                            <h2>My <span class="font-weight-bold">Skills</span></h2>
                             <p class="text-muted mx-auto section-subtitle mt-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row mt-5">
                     <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4">
-                            <div class="services-boxes-icon">
+                        <div class="text-center skills-boxes rounded p-4 mt-4" data-aos="fade-up">
+                            <div class="skills-boxes-icon">
                                 <i class="mbri-growing-chart text-custom display-4"></i>
                             </div>
                             <div class="mt-4">
                                 <h5 class="mb-0">Graphic Design</h5>
-                                <div class="services-title-border"></div>
+                                <div class="skills-title-border"></div>
                                 <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4">
-                            <div class="services-boxes-icon">
+                        <div class="text-center skills-boxes rounded p-4 mt-4" data-aos="fade-up">
+                            <div class="skills-boxes-icon">
                                 <i class="mbri-hot-cup text-custom display-4"></i>
                             </div>
                             <div class="mt-4">
                                 <h5 class="mb-0">Unlimited Color</h5>
-                                <div class="services-title-border"></div>
+                                <div class="skills-title-border"></div>
                                 <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4">
-                            <div class="services-boxes-icon">
+                        <div class="text-center skills-boxes rounded p-4 mt-4" data-aos="fade-up">
+                            <div class="skills-boxes-icon">
                                 <i class="mbri-upload text-custom display-4"></i>
                             </div>
                             <div class="mt-4">
                                 <h5 class="mb-0">Media Marketing</h5>
-                                <div class="services-title-border"></div>
+                                <div class="skills-title-border"></div>
                                 <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
                             </div>
                         </div>
@@ -197,37 +203,37 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4">
-                            <div class="services-boxes-icon">
+                        <div class="text-center skills-boxes rounded p-4 mt-4" data-aos="fade-up">
+                            <div class="skills-boxes-icon">
                                 <i class="mbri-layers text-custom display-4"></i>
                             </div>
                             <div class="mt-4">
                                 <h5 class="mb-0">Unlimited Wifi</h5>
-                                <div class="services-title-border"></div>
+                                <div class="skills-title-border"></div>
                                 <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4">
-                            <div class="services-boxes-icon">
+                        <div class="text-center skills-boxes rounded p-4 mt-4" data-aos="fade-up">
+                            <div class="skills-boxes-icon">
                                 <i class="mbri-website-theme text-custom display-4"></i>
                             </div>
                             <div class="mt-4">
                                 <h5 class="mb-0">Responsive Design</h5>
-                                <div class="services-title-border"></div>
+                                <div class="skills-title-border"></div>
                                 <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="text-center services-boxes rounded p-4 mt-4">
-                            <div class="services-boxes-icon">
+                        <div class="text-center skills-boxes rounded p-4 mt-4" data-aos="fade-up">
+                            <div class="skills-boxes-icon">
                                 <i class="mbri-edit text-custom display-4"></i>
                             </div>
                             <div class="mt-4">
                                 <h5 class="mb-0">Easy to customize</h5>
-                                <div class="services-title-border"></div>
+                                <div class="skills-title-border"></div>
                                 <p class="text-muted mt-3">There are many variations of passages of but the majority have suffered alteration in some form.</p>
                             </div>
                         </div>
@@ -235,17 +241,17 @@
                 </div>
             </div>
         </section>
-        <!-- END SERVICES -->
+        <!-- END SKILLS -->
 
         <!-- START CTA -->
         <section class="section">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="text-center">
+                        <div class="text-center" data-aos="fade-up">
                             <h2>I Am Available For Freelancer.</h2>
                         </div>
-                        <div class="text-center mt-4">
+                        <div class="text-center mt-4" data-aos="fade-up">
                             <a href="#" class="btn btn-custom">Hire Me!</a>
                         </div>
                     </div>
@@ -255,11 +261,11 @@
         <!-- END CTA -->
 
         <!-- START CLIENT -->
-        <section class="section bg-light" id="client">
+        <!-- <section class="section bg-light" id="client">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
-                        <div class="text-center">
+                        <div class="text-center" data-aos="fade-up">
                             <h2>Our <span class="font-weight-bold">Client</span></h2>
                             <p class="text-muted mx-auto section-subtitle mt-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
                         </div>
@@ -267,7 +273,7 @@
                 </div>
                 <div class="row mt-4 pt-4">
                     <div class="col-lg-12">
-                        <div id="owl-demo" class="owl-carousel">
+                        <div id="owl-demo" class="owl-carousel" data-aos="fade-up">
                             <div class="text-center testi_boxes mx-auto">
                                 <div class="tam_testi_icon text-custom">
                                     <i class="mbri-quote-left"></i>
@@ -308,7 +314,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- END CLIENT -->
 
         <!--START WORK -->   
@@ -316,14 +322,14 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
-                        <div class="text-center">
+                        <div class="text-center" data-aos="fade-up">
                             <h2>Our <span class="font-weight-bold">Works</span></h2>
                             <p class="text-muted mx-auto section-subtitle mt-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row mt-5 ">
-                    <ul class="col list-unstyled list-inline mb-0 text-uppercase work_menu" id="menu-filter">
+                    <ul class="col list-unstyled list-inline mb-0 text-uppercase work_menu" id="menu-filter" data-aos="fade-up">
                         <li class="list-inline-item"><a class="active" data-filter="*">All</a></li>
                         <li class="list-inline-item"><a class="" data-filter=".seo">Seo</a></li>
                         <li class="list-inline-item"><a class="" data-filter=".webdesign">Webdesign</a></li>
@@ -334,7 +340,7 @@
             </div>
             <div class="container">
                 <div class="row mt-4 work-filter">
-                    <div class="col-lg-4 work_item webdesign wordpress">
+                    <div class="col-lg-4 work_item webdesign wordpress" data-aos="fade-up">
                         <a href="images/works/1.jpg" class="img-zoom">
                             <div class="work_box">
                                 <div class="work_img">
@@ -348,7 +354,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-4 work_item WORK webdesign seo">
+                    <div class="col-lg-4 work_item WORK webdesign seo" data-aos="fade-up">
                         <a href="images/works/2.jpg" class="img-zoom">
                             <div class="work_box">
                                 <div class="work_img">
@@ -362,7 +368,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-4 work_item seo wordpress">
+                    <div class="col-lg-4 work_item seo wordpress" data-aos="fade-up">
                         <a href="images/works/3.jpg" class="img-zoom">
                             <div class="work_box">
                                 <div class="work_img">
@@ -376,7 +382,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-4 work_item wordpress WORK webdesign">
+                    <div class="col-lg-4 work_item wordpress WORK webdesign" data-aos="fade-up">
                         <a href="images/works/4.jpg" class="img-zoom">
                             <div class="work_box">
                                 <div class="work_img">
@@ -390,7 +396,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-4 work_item seo webdesign">
+                    <div class="col-lg-4 work_item seo webdesign" data-aos="fade-up">
                         <a href="images/works/5.jpg" class="img-zoom">
                             <div class="work_box">
                                 <div class="work_img">
@@ -404,7 +410,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-4 work_item devlopment webdesign">
+                    <div class="col-lg-4 work_item devlopment webdesign" data-aos="fade-up">
                         <a href="images/works/6.jpg" class="img-zoom">
                             <div class="work_box">
                                 <div class="work_img">
@@ -423,11 +429,11 @@
         <!--END WORK -->
 
         <!-- START BLOG -->
-        <section class="section bg-light" id="blog">
+        <!-- <section class="section bg-light" id="blog">
             <div class="container">   
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
-                        <div class="text-center">
+                        <div class="text-center" data-aos="fade-up">
                             <h2>Our <span class="font-weight-bold">Blog</span></h2>
                             <p class="text-muted mx-auto section-subtitle mt-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
                         </div>
@@ -435,7 +441,7 @@
                 </div>                 
                 <div class="row mt-5">
                     <div class="col-lg-4 mt-3">
-                        <div class="rounded blog_color p-2">
+                        <div class="rounded blog_color p-2" data-aos="fade-up">
                             <div class="img_blog">
                                 <img src="images/blog/blog-1.jpg" alt="" class="img-fluid rounded mx-auto d-block">
                             </div>
@@ -452,7 +458,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 mt-3">
-                        <div class="rounded blog_color p-2">
+                        <div class="rounded blog_color p-2" data-aos="fade-up">
                             <div class="img_blog">
                                 <img src="images/blog/blog-2.jpg" alt="" class="img-fluid rounded mx-auto d-block">
                             </div>
@@ -469,7 +475,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 mt-3">
-                        <div class="rounded blog_color p-2">
+                        <div class="rounded blog_color p-2" data-aos="fade-up">
                             <div class="img_blog">
                                 <img src="images/blog/blog-3.jpg" alt="" class="img-fluid rounded mx-auto d-block">
                             </div>
@@ -487,7 +493,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- END BLOG -->
         
         <!-- START CONTACT -->
@@ -495,7 +501,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
-                        <div class="text-center">
+                        <div class="text-center" data-aos="fade-up">
                             <h2><span class="font-weight-bold">Contact</span> Us</h2>
                             <p class="text-muted mx-auto section-subtitle mt-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
                         </div>
@@ -503,7 +509,7 @@
                 </div> 
                 <div class="row mt-5">
                     <div class="col-lg-4">
-                        <div class="text-center">
+                        <div class="text-center" data-aos="fade-up">
                             <div>
                                 <i class="mbri-mobile2 text-custom h1"></i>
                             </div>
@@ -514,7 +520,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="text-center">
+                        <div class="text-center" data-aos="fade-up">
                             <div>
                                 <i class="mbri-letter text-custom h1"></i>
                             </div>
@@ -525,7 +531,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="text-center">
+                        <div class="text-center" data-aos="fade-up">
                             <div>
                                 <i class="mbri-pin text-custom h1"></i>
                             </div>
@@ -614,13 +620,46 @@
         <script src="js/isotope.js"></script>
         <!-- Magnific Popup Js -->
         <script src="js/jquery.magnific-popup.min.js"></script>
-        <!-- TYPED -->
-        <script src="js/typed.js"></script>
+        <!-- Wavify JS -->
+        <script src="js/wavify.js"></script>
+        <script src="js/TweenMax.min.js"></script>
+        <!-- jQuery Wavify JS -->
+        <script src="js/jquery.wavify.js"></script>
         <!-- OWL CAROUSEL -->
         <script src="js/owl.carousel.min.js"></script>
         <!-- CONTACT JS -->
-        <script src="js/contact.js"></script>
+        <script src="js/contact.js"></script>      
+        <!-- AOS JS -->
+        <script src="js/aos.js"></script>
+        <script>AOS.init({});</script>
         <!--CUSTOM JS-->
         <script src="js/custom.js"></script>
+        <!--typeit -->
+        <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+        <script>
+            new TypeIt('#banner-typing-text',{speed:90, loop: true})
+            .type("hello i am father")
+            .pause(700)
+            .move(-10)
+            .delete(8)
+            .type("React")
+            .pause(800)
+            .move(-5)
+            .type("Django and ")
+            .pause(2000)
+            .move(5)
+            .delete(16)
+            .type("Python ")
+            .pause(400)
+            .type("and Java")
+            .pause(2000)
+            .move(10)
+            .delete(25)
+            .type(" Computer Science Student")
+            .pause(1600)
+            .delete(24)
+            .type(" Business and Psych Minor")
+            .go();
+    </script>
     </body>
 </html>
